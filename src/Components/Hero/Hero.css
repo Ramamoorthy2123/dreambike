@@ -1,0 +1,76 @@
+
+.bmw{
+    margin: 70px 90px;
+    
+}
+
+.bmw-txt{
+    color: blue;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 130px;
+}
+.bmw-explore{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    margin: 50px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 18px;
+    background:#fff;
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bmw-explore img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    /* color :red; */
+}
+
+.bmw-dot-play{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bmw-dots{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+
+.bmw-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.orange{
+    background: orangered;
+}
+
+.bmw-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.bmw-play img{
+    width: 60px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 50% 40% 40% 55%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.bmw-play p{
+    font-size: 20px;
+    color: #fff;
+}
